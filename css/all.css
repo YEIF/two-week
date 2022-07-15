@@ -57,6 +57,10 @@ table {
           box-sizing: border-box;
 }
 
+img {
+  vertical-align: middle;
+}
+
 body {
   font-family: 'Roboto',-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: italic;
@@ -96,7 +100,7 @@ body {
 
 .banner-content p {
   font-size: 24px;
-  line-height: 32px;
+  line-height: 36px;
   font-weight: 700;
 }
 
@@ -114,7 +118,7 @@ body {
 
 .about li {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 42px;
   font-weight: 700;
   width: 100%;
 }
@@ -124,6 +128,12 @@ body {
   padding-bottom: 24px;
   border-bottom: 1px solid #000;
   margin: 0 auto;
+}
+
+.about p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
 }
 
 h2 {
@@ -169,14 +179,27 @@ p {
           justify-content: center;
 }
 
+.other-image-three li, .other-image-two li {
+  font-size: 20px;
+  line-height: 42px;
+  margin-right: 24px;
+}
+
+.other-image-three li p, .other-image-two li p {
+  font-size: 20px;
+  line-height: 42px;
+  margin-top: 16px;
+}
+
 .other-image-three a, .other-image-two a {
+  display: block;
   text-decoration: none;
 }
 
 .other-image-three p, .other-image-two p {
   color: #000;
   font-size: 20px;
-  line-height: 42px;
+  line-height: 30px;
   font-weight: 500;
 }
 

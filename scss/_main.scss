@@ -5,7 +5,7 @@ body {
 
 .banner {
   height: 100vh;
-  background-image: url(../img/banner.png);
+  background: url(../img/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -71,8 +71,8 @@ body {
 }
 
 .brand {
-  text-align: center;
   background-color: #000;
+  text-align: center;
   color: white;
   padding-bottom: 160px;
 
@@ -82,7 +82,7 @@ body {
 
   li {
     font-size: 24px;
-    line-height: 32px;
+    line-height: 42px;
     font-weight: 500;
 
     p {
@@ -104,25 +104,21 @@ body {
 
 .other {
   text-align: center;
-
-  p {
+  p{
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
   }
-
-  &-image-three,
-  &-image-two {
+  &-image-three,&-image-two{
     display: flex;
     justify-content: center;
     li{
       margin-right: 24px;
     }
-    a {
+    a{
       text-decoration: none;
       color: #000;
-
-      p {
+      p{
         margin-top: 16px;
       }
     }
@@ -166,9 +162,11 @@ h2 {
 .mt-12 {
   margin-top: 12px;
 }
-.mt-16{
+
+.mt-16 {
   margin-top: 16px;
 }
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -183,10 +181,6 @@ h2 {
 
 .mt-40 {
   margin-top: 40px;
-}
-
-.mt-48 {
-  margin-top: 48px;
 }
 
 .mt-56 {

@@ -68,7 +68,7 @@ body {
 
 .banner {
   height: 100vh;
-  background-image: url(../img/banner.png);
+  background: url(../img/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -140,8 +140,8 @@ body {
 }
 
 .brand {
-  text-align: center;
   background-color: #000;
+  text-align: center;
   color: white;
   padding-bottom: 160px;
 }
@@ -152,7 +152,7 @@ body {
 
 .brand li {
   font-size: 24px;
-  line-height: 32px;
+  line-height: 42px;
   font-weight: 500;
 }
 
@@ -267,10 +267,6 @@ h2 {
 
 .mt-40 {
   margin-top: 40px;
-}
-
-.mt-48 {
-  margin-top: 48px;
 }
 
 .mt-56 {

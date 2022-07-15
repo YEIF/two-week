@@ -140,10 +140,10 @@ p {
 .brand {
   background-color: #000000;
   width: 1920px;
-  height: 1406px;
   color: white;
   text-align: center;
   font-weight: 500;
+  padding-bottom: 160px;
 }
 
 .brand h2 {
@@ -174,7 +174,6 @@ p {
 }
 
 .other-image-three p, .other-image-two p {
-  margin-top: 16px;
   color: #000;
   font-size: 20px;
   line-height: 42px;
@@ -185,7 +184,7 @@ footer {
   background-color: #000;
   color: white;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 64px;
 }
 
 footer h2 {
@@ -215,6 +214,10 @@ footer h2 {
 
 .mt-12 {
   margin-top: 12px;
+}
+
+.mt-16 {
+  margin-top: 16px;
 }
 
 .mt-20 {
